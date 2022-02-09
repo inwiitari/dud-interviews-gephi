@@ -1,11 +1,15 @@
-Template provided by InteractiveVis project
-http://blogs.oii.ox.ac.uk/vis/
-https://github.com/oxfordinternetinstitute/InteractiveVis/
+Коммуникационное поле в интервью Дудя
 
-Important. The files must be uploaded to a webserver (or run one locally) in order to be viewed. JavaScript security prevents running the pages locally without a webserver.
+Данные взяты с сайта Центра цифровых гуманитарных исследований ВШЭ (https://hum.hse.ru/digital/networks_graphs) и подготовлены Юлией Панасенко и Екатериной Бороздиной. 
 
-The InteractiveVis project of the Oxford Internet Institute with funding by JISC aims to allow easy creation of interactive visualisations for geospatial and network data using native web technologies (HTML5, CSS3, and SVG) and allow these visualisations to be self-contained so that they may run entirely offline in ebooks and other media. The project will survey existing solutions and build the necessary components to fill in missing features and smooth over incompatibilities in between existing libraries. The project will further provide online hosted wizards to allow for the easy creation of these interactive visualizations.
+Данные представляют собой упоминания известных людей в 5 наиболее популярных интервью на YouTube-канале "ВДудь", а именно интервью с Собчак, Навальным, Гнойным, BadComedian и Face. На графике это показано в виде кластеров.
 
-More information about the project is available on the project blog:
-http//blogs.oii.ox.ac.uk/vis/
+Граф визуализирован в Gephi и показывает, как связаны известные личности в пределах коммуникационного поля через упоминания. 
 
+Самые крупные связи:
+ - Дудь-Путин
+ - Путин-Собчак
+ - Дудь-Оксимирон
+ 
+ Потенциальные улучшения:
+ - добавить к данным распределение по сферам деятельности упомянутых личностей (музыка/кино/политика и др.), изменить визуализацию в этой зависимости
